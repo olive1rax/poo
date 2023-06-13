@@ -1,3 +1,5 @@
+import xyz.olive1ra.catalogo.modelos.Filme;
+
 public class Principal {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();

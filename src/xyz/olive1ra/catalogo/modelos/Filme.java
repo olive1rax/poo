@@ -1,29 +1,31 @@
+package xyz.olive1ra.catalogo.modelos;
+
 public class Filme {
-    String nome;
-    int anoDeLancamento;
-    boolean incluidoNoPlano;
+    public String nome;
+    public int anoDeLancamento;
+    public boolean incluidoNoPlano;
     private double somaAvaliacoes;
     private int totalDeAvaliacoes;
-    int duracaoEmMinutos;
+    public int duracaoEmMinutos;
 
-    int getTotalDeAvaliacoes(){
+    public int getTotalDeAvaliacoes(){
         return totalDeAvaliacoes;
     }
 
-    void exibeFicha(){
-        System.out.println("Nome Filme: " + nome);
+    public void exibeFicha(){
+        System.out.println("Nome xyz.olive1ra.catalogo.modelos.Filme: " + nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
         System.out.println("Duração: " + duracaoEmMinutos + " minutos.");
         System.out.println("Incluido no plano: " + incluidoNoPlano);
 
     }
 
-    void avalia(double nota){
+    public void avalia(double nota){
         somaAvaliacoes += nota;
         totalDeAvaliacoes++;
     }
 
-    double pegaMedia(){
+    public double pegaMedia(){
         return somaAvaliacoes / totalDeAvaliacoes;
     }
 }
