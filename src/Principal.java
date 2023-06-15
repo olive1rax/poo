@@ -12,8 +12,13 @@ public class Principal {
         meuFilme.exibeFichaTecnica();
 
         meuFilme.avalia(10);
+        meuFilme.avalia(7.5);
+        meuFilme.avalia(8);
+        meuFilme.avalia(10);
         meuFilme.avalia(5);
-        meuFilme.avalia(9);
+        meuFilme.avalia(2.5);
+        meuFilme.avalia(7);
+        meuFilme.avalia(6);
         System.out.println("Total de Avaliações: " + meuFilme.getTotalDeAvaliacoes());
         System.out.println("Nota: " + meuFilme.pegaMedia());
 
