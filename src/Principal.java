@@ -17,7 +17,7 @@ public class Principal {
         System.out.println("Total de Avaliações: " + meuFilme.getTotalDeAvaliacoes());
         System.out.println("Nota: " + meuFilme.pegaMedia());
 
-        Serie lost = new Serie();
+        Serie lost = new Seria();
         lost.setNome("Lost");
         lost.setAnoDeLancamento(2000);
         lost.exibeFichaTecnica();
