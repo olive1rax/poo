@@ -18,10 +18,10 @@ public class Principal {
         System.out.println("Nota: " + meuFilme.pegaMedia());
 
         Serie lost = new Serie();
-        lost.setNome("Lost");
-        lost.setAnoDeLancamento(2000);
+        lost.setNome("Teen Wolf");
+        lost.setAnoDeLancamento(2012);
         lost.exibeFichaTecnica();
-        lost.setTemporadas(10);
-        lost.setEpisodiosPorTemporada(10);
+        lost.setTemporadas(7);
+        lost.setEpisodiosPorTemporada(13);
     }
 }
