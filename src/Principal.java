@@ -28,5 +28,10 @@ public class Principal {
         lost.exibeFichaTecnica();
         lost.setTemporadas(7);
         lost.setEpisodiosPorTemporada(13);
+        meuFilme.setNome("sd");
+        meuFilme.getNome();
+        meuFilme.getAnoDeLancamento();
+        meuFilme.getDuracaoEmMinutos();
+
     }
 }
